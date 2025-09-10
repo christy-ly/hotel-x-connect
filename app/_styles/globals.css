@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+:root {
+  --geist-sans: "Geist", sans-serif;
+  --geist-mono: "Geist Mono", monospace;
+}
+
+body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin: 2rem; */
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease forwards;
+}
+
+.animate-fadeInUp.delay-200 {
+  animation-delay: 0.2s;
+}
