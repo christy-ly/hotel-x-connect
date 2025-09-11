@@ -1,8 +1,7 @@
 <h3 align="center">🥂 Hotel X – A Hotel Website</h3>
 
 ## 💬 Overview
-
-This project is a dynamic and engaging hotel website built with Next.js, React, and Tailwind CSS. It features a responsive design, modular components, and a streamlined reservation flow for an excellent user experience, while providing a clear introduction to the hotel.
+This project is a dynamic and engaging hotel website built with Next.js, React, and Tailwind CSS. It offers a responsive design, modular components, and a streamlined reservation flow, delivering an exceptional user experience.
 
 ## 🛠 Tech Stack
 - **Frontend:** React
@@ -11,7 +10,6 @@ This project is a dynamic and engaging hotel website built with Next.js, React, 
 - **Database:** PostgreSQL via Supabase
 
 ## 📽️View Demo
-
 Check out the live demo of this project here: [View Demo](https://christy-demo-hotel-x.netlify.app/)
 
 ## 📚 References

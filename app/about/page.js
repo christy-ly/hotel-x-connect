@@ -18,7 +18,7 @@ export default function page() {
         X.
       </p>
 
-      <div className="grid grid-cols-5 gap-x-24 gap-y-18 text-lg items-center">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-x-24 gap-y-18 text-lg items-center">
         <div className="md:col-span-2 h-120">
           <Image
             src={aboutimage1}
@@ -30,7 +30,7 @@ export default function page() {
           <SectionHeading>
             Welcome to Hotel X, where luxury meets nature.
           </SectionHeading>
-          <p className="text-primary-200 text-lg mb-10">
+          <p className="text-primary-200 text-lg mb-5 md:mb-10">
             Nestled on the pristine beachfront, Hotel X offers breathtaking sea
             views and an escape into elegance and tranquility. More than just a
             hotel, we are a sanctuary for travelers who seek refined comfort,
@@ -39,7 +39,7 @@ export default function page() {
             the warmth of golden sands, and the promise of quality time in a
             destination designed with natural beauty and luxury in mind.
           </p>
-          <p className="text-primary-200 text-lg mb-10">
+          <p className="text-primary-200 text-lg mb-5 md:mb-10">
             At Hotel X, we believe true luxury is about more than lavish
             furnishings or high-end amenities—it is about how a place makes you
             feel. Our suites are thoughtfully designed to capture the essence of
@@ -52,11 +52,11 @@ export default function page() {
           </p>
         </div>
 
-        <div className="md:col-span-3">
+        <div className="md:col-span-3 order-2 md:order-1 ">
           <SectionHeading>
             Experience the Ultimate Beachfront Escape
           </SectionHeading>
-          <p className="text-primary-200 text-lg mb-10">
+          <p className="text-primary-200 text-lg mb-5 md:mb-10">
             Our location is one of our greatest luxuries. Situated directly on
             the beachfront, Hotel X allows you to wake up to the sound of waves
             and spend your days basking in the natural beauty of the sea.
@@ -66,7 +66,7 @@ export default function page() {
             surrounding coastal landscape, Hotel X creates a seamless connection
             between nature and design, offering you the best of both worlds.
           </p>
-          <p className="text-primary-200 text-lg mb-10">
+          <p className="text-primary-200 text-lg mb-5 md:mb-10">
             Beyond our accommodations, we take pride in creating experiences
             that enrich your stay. Guests can enjoy world-class dining with
             menus inspired by local flavors and international cuisine, all
@@ -77,7 +77,7 @@ export default function page() {
             exploration, from sunrise walks to unforgettable water excursions.
           </p>
         </div>
-        <div className="md:col-span-2 h-120">
+        <div className="order-1 md:order-2 md:col-span-2 h-120">
           <Image
             src={aboutimage2}
             alt="about us"

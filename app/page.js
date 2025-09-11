@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="mt-24">
+    <main className="md:mt-24 h-screen w-full">
       <Image
         src={homepageimage}
         className="object-cover"
@@ -20,7 +20,7 @@ export default function Home() {
       />
 
       <div className="relative z-10 text-center">
-        <h1 className="text-7xl text-primary-50 mb-20 tracking-tight font-normal opacity-0 translate-y-10 animate-fadeInUp">
+        <h1 className="text-5xl md:text-7xl text-primary-50 mb-20 tracking-tight font-normal opacity-0 translate-y-10 animate-fadeInUp">
           Discover Your Perfect Stay.
         </h1>
         <a

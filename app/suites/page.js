@@ -20,7 +20,7 @@ export default async function page() {
         living — the perfect blend of comfort and sophistication.
       </p>
       {suiteList.length > 0 && (
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 xl:gap-14">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10 lg:gap-12 xl:gap-14 py-10">
           {suiteList.map((suite) => (
             <SuiteCard suite={suite} key={suite.id} />
           ))}
